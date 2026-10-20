@@ -127,5 +127,4 @@ evals/                                 # test prompts
 
 ---
 
-Created by **[Idris7umed](https://github.com/Idris7umed)**.
-Based on [arabic-brand-carousel](https://github.com/saoudphotos/arabic-brand-carousel) by [@saoudalajme](https://instagram.com/saoudalajme).
+Created by **[Idris7umed](https://github.com/Idris7umed)**.[@idris7umed](https://instagram.com/idris7umed).
