@@ -1,0 +1,1 @@
+{"name":"idris7umed","description":"Claude plugins by Idris7umed","owner":{"name":"Idris7umed","url":"https://github.com/Idris7umed"},"plugins":[{"name":"my-designer","source":"./plugins/my-designer","description":"Designs branded Instagram / LinkedIn carousels in Arabic, English, or both, with automatic layout QA."}]}
