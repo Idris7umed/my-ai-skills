@@ -100,4 +100,3 @@ my-designer/          # the skill folder
 ---
 
 Created by **[Idris7umed](https://github.com/Idris7umed)**.
-Based on [arabic-brand-carousel](https://github.com/saoudphotos/arabic-brand-carousel) by [@saoudalajme](https://instagram.com/saoudalajme).
