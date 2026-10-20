@@ -1,8 +1,0 @@
-{
-  "skill_name": "my-designer",
-  "evals": [
-    {"id": 1, "prompt": "سو لي كاروسيل عن ليش القهوة تتعبك بعدين، بالعربي والانجليزي. لوني الأساسي بني غامق والمميز برتقالي، والحساب @beanlab", "expected_output": "Dual mode: ar/ (Gulf dialect, RTL) and en/ sets with matching slide order and layouts, correct 'n / N' counter, PNGs + contact sheet, clean QA, caption pack in both languages, brand.json.", "files": []},
-    {"id": 2, "prompt": "Make me a LinkedIn carousel: 5 mistakes first-time managers make. Keep it professional.", "expected_output": "English LTR set, professional tone, list/compare layouts, no hashtags on slides, 3 hashtags max in caption, default brand stated in one line.", "files": []},
-    {"id": 3, "prompt": "عايز بوست سلايدات عن أهم 3 أدوات AI للمصممين، وعايز العنوان عربي وتحته سطر انجليزي", "expected_output": "Mixed mode: Egyptian dialect Arabic headlines with an English subline (lang=en dir=ltr), tool names wrapped in <bdi>, chips or cards layout.", "files": []}
-  ]
-}
