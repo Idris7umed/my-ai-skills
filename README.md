@@ -33,11 +33,28 @@ A Claude skill that designs a complete, branded Instagram / LinkedIn carousel in
 2. Go to **Settings → Capabilities → Skills**, click **Upload skill**, and upload the file.
 3. Make sure **Code execution and file creation** is turned on in Settings, since the skill renders images.
 
-### Claude Code
+### Claude Code (plugin)
+
+Inside a Claude Code session:
+
+```
+/plugin install my-designer --marketplace Idris7umed/my-designer
+```
+
+Or in two steps (works on any Claude Code version with plugins):
+
+```
+/plugin marketplace add Idris7umed/my-designer
+/plugin install my-designer@idris7umed
+```
+
+Then run it with `/my-designer:my-designer`, or just ask for a carousel.
+
+**Without the plugin system**, copy the skill folder instead:
 
 ```bash
 git clone https://github.com/Idris7umed/my-designer.git
-cp -r my-designer/my-designer ~/.claude/skills/
+cp -r my-designer/plugins/my-designer/skills/my-designer ~/.claude/skills/
 ```
 
 To render locally, you also need Python 3, Playwright with Chromium, and Pillow:
@@ -54,7 +71,12 @@ python3 -m playwright install chromium
 2. روح **Settings ← Capabilities ← Skills** واضغط **Upload skill** وارفع الملف.
 3. تأكد إن خيار **Code execution and file creation** مفعّل.
 
-**في Claude Code:** استخدم الأوامر الموجودة فوق.
+**في Claude Code:** اكتب داخل الجلسة:
+
+```
+/plugin marketplace add Idris7umed/my-designer
+/plugin install my-designer@idris7umed
+```
 
 ---
 
@@ -86,17 +108,24 @@ What happens next:
 ## Files
 
 ```
-my-designer/          # the skill folder
-├── SKILL.md              # Instructions Claude follows
-├── assets/template.html  # Slide template: brand colors, layouts, visuals
-├── scripts/fetch_fonts.sh  # Downloads Cairo + Inter fonts
-├── scripts/render.py     # Renders PNGs, runs QA, builds the contact sheet
-└── references/
-    ├── arabic.md         # Dialects, RTL rules, numerals, Arabic typography
-    ├── english.md        # Hooks, tone, English typography, captions
-    └── layouts.md        # Markup for every layout and visual
+.claude-plugin/marketplace.json        # marketplace catalog (for /plugin marketplace add)
+plugins/my-designer/
+├── .claude-plugin/plugin.json         # plugin manifest
+└── skills/my-designer/
+    ├── SKILL.md                       # instructions Claude follows
+    ├── assets/template.html           # slide template: brand colors, layouts, visuals
+    ├── scripts/fetch_fonts.sh         # downloads Cairo + Inter fonts
+    ├── scripts/render.py              # renders PNGs, runs QA, builds the contact sheet
+    └── references/
+        ├── arabic.md                  # dialects, RTL rules, numerals, Arabic typography
+        ├── english.md                 # hooks, tone, English typography, captions
+        └── layouts.md                 # markup for every layout and visual
+my-designer.skill                      # ready-to-upload package for the Claude app
+examples/                              # preview images
+evals/                                 # test prompts
 ```
 
 ---
 
 Created by **[Idris7umed](https://github.com/Idris7umed)**.
+Based on [arabic-brand-carousel](https://github.com/saoudphotos/arabic-brand-carousel) by [@saoudalajme](https://instagram.com/saoudalajme).
