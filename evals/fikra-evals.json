@@ -1,0 +1,8 @@
+{
+  "skill_name": "fikra",
+  "evals": [
+    {"id": 1, "prompt": "فكرتي أسوي تطبيق يربط طلاب الجامعة بمدرسين خصوصيين في جدة، حلوة؟", "expected_output": "No praise opener; 4 roles in Gulf Arabic with named competitors/substitutes; one verdict; a 10-minute test with exact message and numeric threshold; idea card.", "files": []},
+    {"id": 2, "prompt": "is my idea good? an app", "expected_output": "Asks at most 2 short clarifying questions and stops; no roles yet.", "files": []},
+    {"id": 3, "prompt": "Back with results: I posted a pre-order for my candle subscription at $25/month, 40 views, 2 likes, 0 orders. Last verdict was FIX FIRST, success was 3 pre-orders.", "expected_output": "Judge-only follow-up; states miss honestly; says whether verdict changed; next bigger test; updated card.", "files": []}
+  ]
+}
