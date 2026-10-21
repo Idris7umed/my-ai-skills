@@ -125,6 +125,23 @@ examples/                              # preview images
 evals/                                 # test prompts
 ```
 
+## Also in this marketplace: Fikra — فكرة
+
+Don't ask Claude "is my idea good?" — it'll probably flatter you. **Fikra** makes it argue instead: one conversation plays 4 roles on your idea:
+
+- 🟢 **Advocate (المؤيد):** why it could work, and who really needs it.
+- 🔴 **Skeptic (المشكك):** tries to bring it down: who won't buy, the competitors, your blind spot.
+- 💰 **Investor (المستثمر):** one question only: will it make money?
+- ⚖️ **Judge (الحَكَم):** lets them debate, then rules **BUILD / FIX FIRST / KILL**, with one 10-minute test to run today.
+
+Come back a week later with the result and it tells you whether the verdict changed.
+
+```
+/plugin install fikra@idris7umed
+```
+
+No Claude Code? Paste [`project-instructions.md`](plugins/fikra/skills/fikra/assets/project-instructions.md) into a Claude Project's instructions (Arabic and English versions included), or upload [`fikra.skill`](fikra.skill) in the Claude app.
+
 ---
 
 Created by **[Idris7umed](https://github.com/Idris7umed)**.[@idris7umed](https://instagram.com/idris7umed).
