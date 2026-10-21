@@ -1,0 +1,13 @@
+{
+  "name": "fikra",
+  "version": "1.0.0",
+  "description": "Fikra (فكرة): pressure-tests any idea with 4 roles (Advocate, Skeptic, Investor, Judge) and returns one verdict, BUILD / FIX FIRST / KILL, plus a 10-minute test to run today. No flattery.",
+  "author": {
+    "name": "Idris7umed",
+    "url": "https://github.com/Idris7umed"
+  },
+  "homepage": "https://github.com/Idris7umed/my-designer",
+  "repository": "https://github.com/Idris7umed/my-designer",
+  "license": "MIT",
+  "keywords": ["ideas", "validation", "startup", "feedback", "arabic", "decision-making"]
+}
