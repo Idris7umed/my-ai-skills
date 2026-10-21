@@ -1,1 +1,20 @@
-{"name":"idris7umed","description":"Claude plugins by Idris7umed","owner":{"name":"Idris7umed","url":"https://github.com/Idris7umed"},"plugins":[{"name":"my-designer","source":"./plugins/my-designer","description":"Designs branded Instagram / LinkedIn carousels in Arabic, English, or both, with automatic layout QA."}]}
+{
+  "name": "idris7umed",
+  "description": "Claude plugins by Idris7umed",
+  "owner": {
+    "name": "Idris7umed",
+    "url": "https://github.com/Idris7umed"
+  },
+  "plugins": [
+    {
+      "name": "my-designer",
+      "source": "./plugins/my-designer",
+      "description": "Designs branded Instagram / LinkedIn carousels in Arabic, English, or both, with automatic layout QA."
+    },
+    {
+      "name": "fikra",
+      "source": "./plugins/fikra",
+      "description": "Pressure-tests an idea with 4 roles and returns BUILD / FIX FIRST / KILL plus a 10-minute test to run today."
+    }
+  ]
+}
