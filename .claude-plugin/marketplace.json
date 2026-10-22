@@ -15,6 +15,11 @@
       "name": "fikra",
       "source": "./plugins/fikra",
       "description": "Pressure-tests an idea with 4 roles and returns BUILD / FIX FIRST / KILL plus a 10-minute test to run today."
+    },
+    {
+      "name": "seo-boost",
+      "source": "./plugins/seo-boost",
+      "description": "Scores a page's SEO out of 100, fixes it, and re-scores to show the before and after. Arabic and English."
     }
   ]
 }
