@@ -1,0 +1,8 @@
+{
+  "skill_name": "seo-boost",
+  "evals": [
+    {"id": 1, "prompt": "افحص السيو لصفحتي وقل لي كم الدرجة، الكلمة المفتاحية قهوة مختصة", "files": ["bad_ar.html"], "expected_output": "Runs seo_audit.py; reports the script's score with category breakdown and top 5 fixes in Gulf Arabic; mentions what the score can't measure."},
+    {"id": 2, "prompt": "Improve the SEO of this page for 'cold brew coffee' and show me the new score", "files": ["page.html"], "expected_output": "Saves before.json, writes improved.html with fixes applied, re-runs with --compare, shows before -> after, lists remaining owner-only fixes."},
+    {"id": 3, "prompt": "Here's my blog draft, optimize it for SEO before I publish", "files": ["draft.md"], "expected_output": "Content-only mode; improved draft plus title (3 options with char counts) and meta description; re-score with --compare."}
+  ]
+}
