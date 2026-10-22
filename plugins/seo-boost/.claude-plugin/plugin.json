@@ -1,0 +1,21 @@
+{
+  "name": "seo-boost",
+  "version": "1.0.0",
+  "description": "SEO Boost (ارفع ظهورك): scores a page's SEO out of 100 with a repeatable audit, then fixes the title, meta description, headings, alt text, schema and social tags, and re-scores to show the before and after. Arabic and English.",
+  "author": {
+    "name": "Idris7umed",
+    "url": "https://github.com/Idris7umed"
+  },
+  "homepage": "https://github.com/Idris7umed/my-ai-skills/tree/main/plugins/seo-boost",
+  "repository": "https://github.com/Idris7umed/my-ai-skills",
+  "license": "MIT",
+  "keywords": [
+    "seo",
+    "audit",
+    "google",
+    "meta",
+    "schema",
+    "arabic",
+    "content"
+  ]
+}
